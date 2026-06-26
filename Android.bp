@@ -4312,7 +4312,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libformatter",
+    name: "libformatter-v31",
     owner: "oplus",
     strip: {
         none: true,
@@ -4320,7 +4320,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/libformatter.so",
+                "proprietary/vendor/lib/libformatter-v31.so",
             ],
             shared_libs: [
                 "libion_mtk",
@@ -4339,7 +4339,7 @@ cc_prebuilt_library_shared {
         },
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libformatter.so",
+                "proprietary/vendor/lib64/libformatter-v31.so",
             ],
             shared_libs: [
                 "libion_mtk",
@@ -10634,7 +10634,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libcodec2_mtk_vdec.so",
             ],
             shared_libs: [
-                "libformatter",
+                "libformatter-v31",
                 "libdpframework",
                 "android.hardware.graphics.bufferqueue@2.0",
                 "libui",
@@ -10683,7 +10683,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libcodec2_mtk_venc.so",
             ],
             shared_libs: [
-                "libformatter",
+                "libformatter-v31",
                 "libdpframework",
                 "android.hardware.graphics.bufferqueue@2.0",
                 "libui",
