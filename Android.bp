@@ -9,7 +9,6 @@ soong_namespace {
         "hardware/google/pixel/pixelstats",
         "hardware/google/pixel/power-libperfmgr",
         "hardware/mediatek",
-        "hardware/mediatek/libaedv",
         "hardware/mediatek/libmtkperf_client",
         "hardware/oplus",
     ],
@@ -2454,6 +2453,53 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaedv",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libaedv.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libbase",
+                "libunwindstack",
+                "libselinux",
+                "liblog",
+                "libz",
+                "libc",
+                "libdl",
+                "libm",
+                "libc++",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libaedv.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libbase",
+                "libunwindstack",
+                "libselinux",
+                "liblog",
+                "libz",
+                "libc",
+                "libdl",
+                "libm",
+                "libc++",
             ],
         },
     },
