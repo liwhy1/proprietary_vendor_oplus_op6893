@@ -602,7 +602,6 @@ PRODUCT_PACKAGES += \
     libktvreverb \
     libktvsoundtouch \
     libktvvolume \
-    libladder \
     liblpcnr \
     libmidasserviceintf \
     libminiui \
