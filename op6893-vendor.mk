@@ -1064,8 +1064,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.engineermode@1.3 \
     vendor.mediatek.hardware.lbs@1.0 \
     vendor.mediatek.hardware.log@1.0 \
-    vendor.mediatek.hardware.mtkradioex@2.0 \
-    vendor.mediatek.hardware.mtkradioex@3.0 \
     vendor.mediatek.hardware.power@2.0 \
     vendor.mediatek.hardware.videotelephony@1.0_vendor \
     vendor.oplus.hardware.radio-V1-ndk_platform_vendor \
