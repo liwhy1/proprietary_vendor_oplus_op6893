@@ -706,7 +706,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
     vendor.oplus.hardware.cammidasservice@1.0 \
-    vendor.oplus.hardware.commondcs@1.0 \
     vendor.oplus.hardware.performance@1.0 \
     sound_trigger.primary.default \
     libHEVCdec_sa.ca7.android \
