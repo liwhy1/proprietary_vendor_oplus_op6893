@@ -384,7 +384,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/op6893/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/oplus/op6893/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
     vendor/oplus/op6893/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
-    vendor/oplus/op6893/proprietary/vendor/etc/init/init.conninfra.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.conninfra.rc \
     vendor/oplus/op6893/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
     vendor/oplus/op6893/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
     vendor/oplus/op6893/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
@@ -1581,7 +1580,6 @@ PRODUCT_PACKAGES += \
     bt_dump \
     ccci_mdinit \
     ccci_rpcd \
-    conninfra_loader \
     dconfig \
     dexecutor \
     dmc_core \
